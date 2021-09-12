@@ -1,0 +1,251 @@
+body{
+    background-color: rgb(166, 248, 118);
+}
+
+.navbar{
+    background-color: rgb(248, 252, 53);
+}
+
+.navbar-brand{
+    margin-left: 15px;
+    font-weight: bold;
+    color: green;
+    font-size: 30px;
+}
+
+.nav-link{
+    color:purple;
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+thead{
+    color:blue;
+}
+
+table{
+    margin:auto;
+    margin-bottom: 200px;
+}
+
+h1{
+    color:black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+tbody tr:hover{
+    color:white;
+    background-color: green;
+    font-size:larger;
+}
+
+thead tr{
+    font-family: cursive;
+}
+
+.display{
+    display: flex;
+    text-align: center;
+    margin:auto;
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10{
+    margin-left:40px;
+    margin-right: -50px;
+}
+
+#button1{
+    margin-top:110px;
+}
+#button2{
+    margin-top:55px;
+}
+#button3{
+    margin-top:57px;
+}
+#button4{
+    margin-top:60px;
+}
+#button5{
+    margin-top:53px;
+}
+#button6{
+    margin-top:60px;
+}
+#button7{
+    margin-top:57px;
+}
+#button8{
+    margin-top:59px;
+}
+#button9{
+    margin-top:54px;
+}
+#button10{
+    margin-top:54px;
+}
+
+#submit_button{
+    position:absolute; 
+    left:50%;
+    width:130px;
+    height:40px;
+    margin-left:-50px;
+    margin-bottom: 10px;
+    bottom:-500px;
+    color:white;
+    background-color: darkred;
+    border-radius: 50px;
+    border:1px solid black;
+    font-size: large;
+}
+
+#submit_button:hover{
+    color: yellow;
+}
+
+
+@media only screen  and (max-width: 1200px) {
+    .navbar{
+        width:1000px;
+    }
+
+    .navbar-brand{
+        margin-left: -10px;
+    }
+
+    .nav-link{
+        margin-right: -10px;
+        font-size: large;
+    }
+
+    h1{
+        font-size:35px;
+    }
+
+    table{
+        margin-left: 40px; 
+        font-size:17px; 
+    } 
+
+    tbody tr:hover{
+        color:white;
+        background-color: green;
+        font-size:15px;
+    }
+
+    #button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10{
+        margin-left:10px;
+        margin-right: -10px;
+    }
+
+    #button1{
+        margin-top:135px;
+    }
+    #button2{
+        margin-top:72px;
+    }
+    #button3{
+        margin-top:68px;
+    }
+    #button4{
+        margin-top:72px;
+    }
+    #button5{
+        margin-top:70px;
+    }
+    #button6{
+        margin-top:70px;
+    }
+    #button7{
+        margin-top:80px;
+    }
+    #button8{
+        margin-top:92px;
+    }
+    #button9{
+        margin-top:85px;
+    }
+    #button10{
+        margin-top:70px;
+    }
+
+    #submit_button{
+        margin-bottom: 10px;
+        bottom:-800px;
+        
+    }
+}
+
+@media only screen and (min-width:990px) and (max-width:1200px){
+    #button8{
+        margin-top:82px;
+    }
+    #button9{
+        margin-top:62px;
+    }
+    #button10{
+        margin-top:68px;
+    }
+    
+    #submit_button{
+        margin-bottom: 10px;
+        bottom:-800px;
+    }
+   
+}
+
+@media only screen and (min-width:1005px) and (max-width:1200px){
+    .navbar{
+        width:1120px;
+    }
+
+    #button7{
+        margin-top:65px;
+    }
+    #button8{
+        margin-top:65px;
+    }
+    #button9{
+        margin-top:62px;
+    }
+    #button10{
+        margin-top:63px;
+    }
+
+    #submit_button{
+        margin-bottom: 10px;
+        bottom:-600px;
+    }
+}
+
+
+
+@media only screen and (min-width:1128px) and (max-width:1200px){
+    .navbar{
+        width:1180px;
+    }
+
+    #button1{
+        margin-top: 115px;
+    }
+    #button2{
+        margin-top:60px;
+    }
+    #button3{
+        margin-top:60px;
+    }
+    #button4{
+        margin-top: 60px;
+    }
+    #button5{
+        margin-top: 46px;
+    }
+    #button6{
+        margin-top: 60px;
+    }
+}
